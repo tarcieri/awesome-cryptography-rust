@@ -24,10 +24,14 @@
 - [sodiumoxide](https://github.com/sodiumoxide/sodiumoxide) Sodium Oxide: Fast cryptographic library for Rust (bindings to libsodium).
 
 ### Symmetric cryptography
+- [AEADs](https://github.com/rustcrypto/aeads) Collection of AEAD algorithms writteh in pure Rust (AES-GCM, AES-GCM-SIV, AES-SIV, (X)ChaCha20Poly1305, XSalsa20Poly1305)
 - [block-ciphers](https://github.com/RustCrypto/block-ciphers) Collection of block cipher algorithms written in pure Rust. (AES, Blowfish, DES + 3DES, Kuznyechik, Magma, RC2, Twofish).
 - [stream-ciphers](https://github.com/RustCrypto/stream-ciphers) Collection of stream cipher algorithms.
 
 ### Asymmetric Cryptography
+###### ECC
+- [elliptic-curves](https://github.com/RustCrypto/elliptic-curves) Collection of keys/field arithmetic implementations for elliptic curves written in pure Rust (P-256, P-384, secp256k1)
+
 ###### RSA
 - [RSA](https://github.com/RustCrypto/RSA) RSA implementation in pure Rust. (PKCS1v1.5: Encryption & Decryption, Sign & Verify)
 
